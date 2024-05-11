@@ -3,11 +3,19 @@ body {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-items: center;
-    padding: 100px;
-    h6{
-        text-align: center;
-    }
-    a{
-        text-decoration: none;
-    }
+    padding: 200px;   
+}
+
+h6{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+.iframe-container>iframe{
+    margin:0 auto;
 }
