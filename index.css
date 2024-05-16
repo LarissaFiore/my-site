@@ -19,6 +19,17 @@ a{
 div{
     text-align: center;
 }
-.iframe-container>iframe{
-    margin:0 auto;
+
+.container{
+    column-width: 500px;
+    column-gap: 10px;
+    column-rule: 4px;
+}
+
+.card{
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0 0 1em 0;
 }
